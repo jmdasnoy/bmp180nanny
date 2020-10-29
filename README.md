@@ -36,9 +36,9 @@ Two chips can be used, one on each hardware i2c bus and each with its own handle
 ## Using the package
 
 The package exposes a single element, the constructor function `new( i2cid , oss )`.
-The optional parameter i2cid indicates which i2c hardware subsystem should be used, i2c.HW0 or i2c.HW1. The default value is i2c.HW0
+The optional parameter `i2cid` indicates which i2c hardware subsystem should be used, `i2c.HW0` or `i2c.HW1`. The default value is `i2c.HW0`
 It is assumed that the i2c setup has been done elsewhere.
-The optional parameter oss is the pressure oversampling setting, in the range [0-3]. The default value is 0.
+The optional parameter `oss` is the pressure oversampling setting, in the range [0-3]. The default value is 0.
 The function returns a handler object as a table.
 
 ## Using the handler and example
